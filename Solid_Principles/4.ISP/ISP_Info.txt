@@ -1,0 +1,8 @@
+﻿
+--Interface Segregation Principle (ISP)
+
+-It is the principle that states that it should be preferred to create more customized interfaces than to collect all of the responsibilities into a single interface.
+
+-This principle is about reducing objects down to their smallest implementation, and removing dependencies. The result of implementing this principle is to have a lot of small, focused interfaces that define only what is needed.
+
+In the BadExample, IProduct interface is designed only for trousers but it can be needed to add different type of product. Then IProduct will not work appropriately. In the GoodExample, interface is minimized to base properties and specific features are added under subclasses.

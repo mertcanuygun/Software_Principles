@@ -49,11 +49,28 @@
     <Compile Include="2.OCP\Labs\GoodExample\Concrete\PerimeterOfCircle.cs" />
     <Compile Include="2.OCP\Labs\GoodExample\Concrete\PerimeterOfRectangle.cs" />
     <Compile Include="2.OCP\Labs\GoodExample\Concrete\PerimeterOfTriangle.cs" />
+    <Compile Include="3.LSP\Labs\BadExample\Abstract\BaseBadSubscription.cs" />
+    <Compile Include="3.LSP\Labs\BadExample\Abstract\IBaseBadSubscription.cs" />
+    <Compile Include="3.LSP\Labs\BadExample\Concrete\PremiumUser.cs" />
+    <Compile Include="3.LSP\Labs\BadExample\Concrete\StandardUser.cs" />
+    <Compile Include="3.LSP\Labs\GoodExample\Abstract\BaseGoodSubscription.cs" />
+    <Compile Include="3.LSP\Labs\GoodExample\Abstract\IBasePremiumSubscription.cs" />
+    <Compile Include="3.LSP\Labs\GoodExample\Abstract\IBaseStandardSubscription.cs" />
+    <Compile Include="3.LSP\Labs\GoodExample\Concrete\GoodPremiumUser.cs" />
+    <Compile Include="3.LSP\Labs\GoodExample\Concrete\GoodStandardUser.cs" />
+    <Compile Include="4.ISP\Labs\BadExample\Abstract\IBadProduct.cs" />
+    <Compile Include="4.ISP\Labs\BadExample\Concrete\BadSweater.cs" />
+    <Compile Include="4.ISP\Labs\BadExample\Concrete\BadTrousers.cs" />
+    <Compile Include="4.ISP\Labs\GoodExample\Abstract\IGoodProduct.cs" />
+    <Compile Include="4.ISP\Labs\GoodExample\Concrete\GoodSweater.cs" />
+    <Compile Include="4.ISP\Labs\GoodExample\Concrete\GoodTrousers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.SRP\SRP_Info.txt" />
     <Content Include="2.OCP\OCP_Info.txt" />
+    <Content Include="3.LSP\LSP_Info.txt" />
+    <Content Include="4.ISP\ISP_Info.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

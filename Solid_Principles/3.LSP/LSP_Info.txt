@@ -1,0 +1,10 @@
+﻿
+--Liskov Substitiution Principle (LSP)
+
+-It is the principle that states the necessity of interchangeability between base and child classes. With this principle, the establishment of complex hierarchies between classes can be avoided.
+
+-This principle can be applied with establishing interchangeability between base and child classes by making appropriate arrangements in the inheriting base class and diversification of interfaces.
+
+In the BadExample, both premium and standard streaming service users are inherited same functions and some of the functions are not quite correct for the correspondent user type. So, the methods are seperated for user type with interfaces and inherited accordingly in the GoodExample to avoid violation of Liskov Substituation Principle.
+
+Note: For the example's sake, interface segregation principle is severely broken in the example.
