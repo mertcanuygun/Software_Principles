@@ -1,0 +1,8 @@
+﻿
+--Open/Closed Principle (OCP)
+
+-It is the principle that states that classes and functions are needed to be closed to change of existing codes while they have the ability to obtain new features. It is aimed to achieve to gain the elasticity of expanding the class without changing the base characteristics.
+
+-This principle is applied to the project by inheriting the common characteristics of the base class while making necessary expansions in each subclasses.
+
+In the BadExample, a perimeter calculator method is designed. With each different shape calculation request, the method needs to be arranged because all geometric shapes have their own perimeter calculations. To avoid this, a base class will be created to inherit this method. Subclasses will be overwritten by their own formula.

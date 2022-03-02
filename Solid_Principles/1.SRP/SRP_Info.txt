@@ -1,0 +1,10 @@
+﻿
+--Single Responsibility Principle (SRP)
+
+-It is the principle that states that each class should have only one responsibility. This way, it is aimed to achieve faster responding and easier to control classes.
+
+-Single Responsibility Principle can be implemented by breaking classes into pieces according to their purposes.
+
+A MusicApp project has been taken account in the examples. This project's model has a class named "Song". And in this class beside appropriate properties, there is "ArtistName" property. It looks fine at first sight but it would be wiser to design the project with seperated "Artist" class. Because, if artist details needed to be presented, then the song class would be affected by something that doesn't concern it directly.
+
+In the GoodExample, it can be found that Artist has its own class seperated from Song class which will be easier to control if Artist details were needed.
