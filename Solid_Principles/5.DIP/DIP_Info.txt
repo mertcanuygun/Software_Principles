@@ -1,0 +1,10 @@
+﻿
+--Dependency Inversion Principle (DIP)
+
+-It is the principle that states that the upper classes should not depend on the lower level classes and both class levels should depend upon abstractions. 
+
+-Also, abstractions should not depend on details. Details should depend on abstractions. This means, a change made in subclasses should not affect the base classes.
+
+-This principle will ensure that the classes are very easy to maintain and agile to expand if needed.
+
+In the BadExample, ChangingRoomServise is the upper class but it is highly dependent on BadSweater and BadTrousers lower classes. This is something that no one desires and to be able to avoid this problem all classes will depend on an abstract upper class.
