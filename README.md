@@ -2,7 +2,7 @@
 Software principle definitions with simple examples
 
 
---1.Single Responsibility Principle (SRP)
+# --Single Responsibility Principle (SRP)
 
 -It is the principle that states that each class should have only one responsibility. This way, it is aimed to achieve faster responding and easier to control classes.
 
@@ -14,7 +14,7 @@ In the GoodExample, it can be found that Artist has its own class seperated from
 
 
 
---2.Open/Closed Principle (OCP)
+# --Open/Closed Principle (OCP)
 
 -It is the principle that states that classes and functions are needed to be closed to change of existing codes while they have the ability to obtain new features. It is aimed to achieve to gain the elasticity of expanding the class without changing the base characteristics.
 
@@ -24,7 +24,7 @@ In the BadExample, a perimeter calculator method is designed. With each differen
 
 
 
---3.Liskov Substitiution Principle (LSP)
+# --Liskov Substitiution Principle (LSP)
 
 -It is the principle that states the necessity of interchangeability between base and child classes. With this principle, the establishment of complex hierarchies between classes can be avoided.
 
@@ -36,7 +36,7 @@ Note: For the example's sake, interface segregation principle is severely broken
 
 
 
---4.Interface Segregation Principle (ISP)
+# --Interface Segregation Principle (ISP)
 
 -It is the principle that states that it should be preferred to create more customized interfaces than to collect all of the responsibilities into a single interface.
 
@@ -46,7 +46,7 @@ In the BadExample, IProduct interface is designed only for trousers but it can b
 
 
 
---5.Dependency Inversion Principle (DIP)
+# --Dependency Inversion Principle (DIP)
 
 -It is the principle that states that the upper classes should not depend on the lower level classes and both class levels should depend upon abstractions. 
 
